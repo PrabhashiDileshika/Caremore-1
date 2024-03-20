@@ -1,6 +1,31 @@
-navbar{
-    width:auto;
-    height:auto;
-    margin:auto;
-    color:#004861;
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap')
+*{
+    margin: 0;
+    padding:0;
+}
+.navbar{
+    width: 100;
+    height: 100;
+    margin: auto;
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image:url(background.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home text{
+    font-family:jacques francois
+}
+
+.greenbutton {
+        background-color: green;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        padding-right: 50px;
 }
